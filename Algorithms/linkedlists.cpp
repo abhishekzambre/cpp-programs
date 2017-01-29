@@ -27,6 +27,8 @@ int main(){
 
 	cout << "Linked List Implementation" << endl;
 
+	IntElement node9();
+
 	IntElement node1(10);
 
 	cout << "Node 1's value is " << node1.value() << endl;
@@ -39,6 +41,8 @@ int main(){
 	node1.setNext(&node2);
 
 	cout << "Node 1's next is " << node1.getNext() << endl;
+
+
 
 	return 0;
 }
